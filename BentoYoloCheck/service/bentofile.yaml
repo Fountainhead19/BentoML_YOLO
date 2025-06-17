@@ -1,0 +1,8 @@
+service: service:chicken_service
+
+python:
+  packages:
+    - ultralytics
+    - pillow
+    - pydantic
+    - PyYAML

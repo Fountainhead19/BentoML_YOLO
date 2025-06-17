@@ -1,0 +1,5 @@
+bentoml
+ultralytics
+pillow
+pydantic
+pyyaml

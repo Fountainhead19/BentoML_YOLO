@@ -1,0 +1,3 @@
+{"timestamp": "2025-06-17T12:28:57.861920", "level": "INFO", "message": "Adding BentoML requirement to the image: bentoml==1.4.16."}
+{"timestamp": "2025-06-17T12:28:57.862329", "level": "INFO", "message": "Locking PyPI package versions."}
+{"timestamp": "2025-06-17T12:28:57.862573", "level": "INFO", "message": "Locking packages for x86_64-manylinux_2_36. Pass `--platform` option to specify the platform."}

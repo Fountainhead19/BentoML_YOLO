@@ -1,0 +1,18 @@
+service:
+  name: chicken_service
+  logging:
+    access:
+      enabled: true
+      request_content_length: true
+      request_content_type: true
+      response_content_length: true
+      response_content_type: true
+      skip_paths: [ "/healthz", "/readyz" ]
+      format:
+        trace_id: "032x"
+        span_id: "016x"
+  workers: 1
+  resources:
+    cpu: 1
+    memory: "1Gi"
+
