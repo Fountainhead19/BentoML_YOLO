@@ -20,7 +20,7 @@
      - Пытался добавить логирование запросов, но не до конца получилось
    - `BentoYoloCheck/service/bentofile.yaml` - Bento спецификация (для containerize/build)
    - `BentoYoloCheck/service/bento-settings.yaml` - Конфигурация сервиса
-   Дальше bentoml build и bentoml serve chicken_service:latest
+   - Дальше bentoml build и bentoml serve chicken_service:latest
 
 
 4. **Тестирование API**
